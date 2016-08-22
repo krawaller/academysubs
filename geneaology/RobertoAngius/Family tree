@@ -2,5 +2,13 @@
 &ATTRIBUTE:VALUE/&
 #CHILDREN/#
 
-
+//Own language
 @dad&name:Aurelio/&#@&name:Roberto/&/@@&name:Paolo/&/@@&name:Monica/&/@/#/@
+
+
+//XML
+<dad name="Aurelio">
+    <child name="Roberto></child>
+    <child name="Paolo"></child>
+    <child name="Monica"></child>
+</dad>
