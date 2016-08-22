@@ -1,0 +1,4 @@
+HTML: 3
+CSS: 2
+JS: 1
+Webtech curiosity: -> Infinity
