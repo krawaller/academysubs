@@ -5,7 +5,7 @@ Type:
 The type is the first word inside the dividers (persons name  in the family tree)
 
 Attributes:
-Attributes is encapsuled by < and > and seperated by ~, (<a1~a2~...~aN> )
+Attributes is encapsuled by < and >, seperated by ~ and assign value with :, (<a1:v1~a2:v2~...~aN:vN> )
 
 Children:
 Children is encapsuled by ֍ and ֎ and seperated by ~, (֍c1~c2~...~cN)֎
