@@ -1,0 +1,12 @@
+Encapsulate an object with {}
+Attibutes within ()
+Separate attributes and values with =
+Separate attributes with |
+Children within <>
+Separate children with |
+
+Example with a family tree:
+Valid attributes: 	age (have value)
+			Superpower (does not have value)
+
+{Grandpa(age=80|Paralysed)<{Dad(age=42|Giant)<{Me(age=22|Ninja)}|{Brother1(age=20|Animal)}|{Brother2(age=15|Telepathy)}>}|{Auntie(age=40|Naggy)<{Cousin1(age=13|Retarded)}|{Cousin2(age=11|Retarded^2)}>}>}
