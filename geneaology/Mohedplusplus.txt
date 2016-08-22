@@ -1,0 +1,20 @@
+Object is defined by hashtag before object name
+Key is defined by a semicolon after name folowed by value
+Binary keys lack semicolons
+Keys must be indented one unit under the owner object
+Nested objects must be indented one unit under parrent object
+
+#Grandpa: funny
+	Age: 99
+	Alive
+	#Father: funny
+		Age: 56
+		Alive
+		#Me: booring
+			Age: 35
+			Alive
+		#Sister: funny
+			Age: 30
+			Alive
+	#Uncle: booring
+		Age: 51
