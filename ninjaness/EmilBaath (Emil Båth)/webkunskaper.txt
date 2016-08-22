@@ -1,0 +1,4 @@
+html 1;
+css 1;
+js 3;
+webcurios 10;
