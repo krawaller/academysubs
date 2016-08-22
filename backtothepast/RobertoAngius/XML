@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<dad name="Aurelio">
+    <child>Roberto</child>
+    <child>Paolo</child>
+    <child>Monica</child>
+</dad>
