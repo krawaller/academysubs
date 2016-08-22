@@ -1,0 +1,14 @@
+body {
+	background-color: black;
+}
+
+header {
+		font-size: 4em;
+		color: red;
+	}
+.oldman {
+		color: white;
+	}
+.choices {
+	    color: yellow;
+}
