@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+
+<Björn storlek="lagom stor" färg="brun" växtätare="ja"> 
+    <Svans längd="kort" färg="grön"></Svans> 
+    <Tassar antal="4 st"> 
+          <Klor vassa="mycket"></Klor></Tassar></Björn>
