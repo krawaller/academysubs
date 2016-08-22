@@ -1,4 +1,0 @@
-html 6
-css 4
-js 4
-webb 8

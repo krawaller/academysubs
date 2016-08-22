@@ -1,8 +1,0 @@
-<?xml version="1.0"?>
-<Grandpa  type="funny" age="99">Alive
-	<Father type="funny" age="56">Alive
-		<Me type="booring" age="35">Alive</Me>
-		<Sister type="funny" age="30">Alive</Sister>
-	</Father>
-	<Uncle type="booring" age="50"></Uncle>
-</Grandpa>

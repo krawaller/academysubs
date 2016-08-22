@@ -1,6 +1,0 @@
-<person name="Iris" age="70" alive="yes">
-    <person name="Annica" age="55" alive="yes">
-        <person name="Kajsa" age="24" alive="yes"></person>
-    </person>
-    <person name="Leif" age="60" alive="yes"></person>
-</person>
