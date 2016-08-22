@@ -1,0 +1,43 @@
+<object>
+        <type>dad</type>
+        <attribute>name : 'Igor'</attribute>,
+        <attribute>male</attribute>,
+        <attribute>age : 63</attribute>
+        <child>
+                <type>son</type>
+                <attribute>name : 'Kirill'</attribute>,
+                <attribute>male</attribute>,
+                <attribute>age : 40</attribute>
+                <child>
+                        <type>grandson</type>
+                        <attribute>name : 'Nikita'</attribute>,
+                        <attribute>male</attribute>,
+                        <attribute>age : 13</attribute>
+                </child>,
+        </child>,
+        <child>
+                <type>daughter</type>
+                <attribute>name : 'Lisa'</attribute>,
+                <attribute>female</attribute>,
+                <attribute>age : 28</attribute>
+                <child>
+                        <type>grandson</type>
+                        <attribute>name : 'Petr'</attribute>,
+                        <attribute>male</attribute>,
+                        <attribute>age : 8</attribute>
+                </child>,
+                <child>
+                        <type>grandson</type>
+                        <attribute>name : 'Kirill'</attribute>,
+                        <attribute>male</attribute>,
+                        <attribute>age : 6</attribute>
+                </child>,
+        </child>,
+        <child>
+                <type>daughter</type>
+                <attribute>name : 'Kate'</attribute>,
+                <attribute>female</attribute>,
+                <attribute>age : 15</attribute>
+        </child>,
+
+</object>

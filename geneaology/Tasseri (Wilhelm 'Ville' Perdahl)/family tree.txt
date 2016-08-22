@@ -1,0 +1,8 @@
+<Person : gender='Man'; name='Ingemar'; Nationality='Swedish':>
+	<Person : gender='Man'; name='Bernt'; Nationality='Swedish':>
+		<Person : gender='Man'; name='Ville'; Nationality='Swedish':>
+		</end Person>
+	<Person : gender='Man'; name='Kenneth; Nationalty='Swedish':>
+	</end Person>
+</end Person>
+	

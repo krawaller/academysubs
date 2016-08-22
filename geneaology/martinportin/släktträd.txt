@@ -1,0 +1,12 @@
+
+
+
+<bror age="95" status="married">
+<peter age="70" status="married">
+<karin age="40" status="married"><frans age="10"></frans><brorerik age="5"></brorerik></karin>
+<martin age="35"></martin>
+<erik age="30"><lisen age="1"></lisen></erik>
+<ellen> age="25"</ellen>
+</peter>
+</bror>
+

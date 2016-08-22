@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+
+<grandpa age= "102" speciality= "Athletic">
+<dad age= "80" speciality= "healthy">
+<me age= "25" speciality= "flyer"/>
+<brother age= "28" speciality= "builder"/>
+<sister age= "32" speciality= "reader"/>
+</dad>
+
+<auntie age= "45" speciality= "mother">
+<cousin1 age= "18" speciality= "karate"/>
+<cousin2 age= "22" speciality= "sales"/>
+</auntie>
+
+</grandpa>

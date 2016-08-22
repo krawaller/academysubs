@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<Grandpa age="80" Superpower="Paralysed">
+	<Dad age="42" Superpower="Giant">
+		<Me age="22" Superpower="Ninja"/>
+		<Brother1 age="20" Superpower="Animal"/>
+		<Brother2 age="15" Superpower="Telepathy"/>
+	</Dad>
+	<Auntie age="40" Superpower="Naggy">
+		<Cousin1 age="13" Superpower="Retarded"/>
+		<Cousin2 age="11" Superpower="Retarded^2"/>
+	</Auntie>
+</Grandpa>

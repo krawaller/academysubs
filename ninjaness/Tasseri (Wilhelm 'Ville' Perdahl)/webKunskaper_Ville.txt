@@ -1,4 +1,0 @@
-html 5
-CSS 3
-Javascript 2
-Webcurios 10
