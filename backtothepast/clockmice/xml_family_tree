@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+
+<dad name="Igor" age="63">
+        <son name="Kirill" age="40">
+                <grandson name="Nikita" age="13"/>
+        </son>
+        <daughter name="Lisa" age="28">
+                <grandson name="Petr" age="8"/>
+                <grandson name="Kirill" age="6"/>
+        </daughter>
+        <daughter name="Kate" age="15"/>
+</dad>
