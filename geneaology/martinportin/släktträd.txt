@@ -1,7 +1,4 @@
-Objekt {objekt}
-Children [children]
-Attribute (attribute\amount : attribute)
-Separator ;
+
 
 
 <bror age="95" status="married">
@@ -13,5 +10,3 @@ Separator ;
 </peter>
 </bror>
 
-{Bror(age\95: married) [{Peter(age\70: married)[{Karin(age\40: married) [{Frans(age\10)}; {Bror(age\5)}] } ; {Martin(age\35)} ;
-{Erik(age\30) [{Lisen(age\1)}]} ; {Ellen(age\25)}]}
