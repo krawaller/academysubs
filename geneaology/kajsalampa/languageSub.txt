@@ -1,0 +1,26 @@
+How to encapsulate an object:
+<   >
+
+How to express object type:
+<type>
+
+How to express and separate attributes, with and without values:
+list attributes after type.
+encapsulate with ( and )
+assign value with =
+separate with |
+
+<type(attr1=value|attr2=value|attr33)>
+
+how to express children:
+encapsulate children with _ and _
+separate children with |
+
+<type(attr1)_<childType(attr)>|<childType(attr)>_>
+
+Family Tree
+
+<person(name=Iris|age=80|alive)_<person(name=annica|age=55|alive)_<person(name=kajsa|age=24|alive)>_>|<person(name=leif|age=60|alive)>_>
+
+
+
