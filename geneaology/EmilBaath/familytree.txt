@@ -8,7 +8,7 @@ Attributes:
 Attributes is encapsuled by < and >, seperated by ~ and assign value with :, (<a1:v1~a2:v2~...~aN:vN> )
 
 Children:
-Children is encapsuled by ֍ and ֎ and seperated by ~, (֍c1~c2~...~cN)֎
+Children is encapsuled by ֍ and ֎ and seperated by ~, (֍c1~c2~...~cN֎)
 
 
 Family tree:
