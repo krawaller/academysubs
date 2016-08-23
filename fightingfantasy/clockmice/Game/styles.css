@@ -1,7 +1,9 @@
+@import "https://fonts.googleapis.com/css?family=Righteous";
 body {
     margin: auto;
     width: 50%;
-    font-family: "Sitka Text";
+    font-family: "Righteous";
+    font-size: larger;
     background-color: black;
 }
 .headline{
@@ -29,7 +31,7 @@ body {
     padding-right: 150px;
     padding-bottom: 20px;
     padding-top: 20px;
-    margin: 4em;
+    margin: 3em;
     background-color: #76F349;
     border: 1px solid black;
     border-radius: 50px;
@@ -45,7 +47,7 @@ body {
     padding-right: 150px;
     padding-bottom: 20px;
     padding-top: 20px;
-    margin: 14em;
+    margin: 12em;
     background-color: #76F349;
     border: 1px solid black;
     border-radius: 50px;
