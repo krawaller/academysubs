@@ -1,5 +1,7 @@
+@import 'https://fonts.googleapis.com/css?family=Mystery+Quest';
+
 html {
-	font-family: Georgia;	
+	font-family: 'Mystery Quest', cursive;	
 }
 header:first-child:first-letter {
 	color: #903; 
