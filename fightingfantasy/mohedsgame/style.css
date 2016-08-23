@@ -1,14 +1,22 @@
 body {
+	color: white;
 	background-color: black;
+	height: 100%;
+	width: 100%;
 }
 
 header {
-		font-size: 4em;
-		color: red;
+		font-size: 72px;
+		background-color: white;
+		color: black;
+		height: 50%;
 	}
-.oldman {
-		color: white;
-	}
-.choices {
-	    color: yellow;
+a {
+	color: white;
 }
+
+#narratorText {
+	}
+#playerText {
+	    
+	    }
