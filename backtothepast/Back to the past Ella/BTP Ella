@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+
+<Morfar>
+    <Mamma>
+        <barn1> namn="Ella" gender="Kvinna" </barn1>
+        <barn2> namn="Anni" gender="Kvinna" </barn2>
+    </Mamma>
+    <Moster>
+        <barn1> namn="Fred", gender = "Man" </barn1>
+    </Moster>
+</Morfar>

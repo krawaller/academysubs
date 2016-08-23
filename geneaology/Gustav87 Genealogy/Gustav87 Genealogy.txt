@@ -1,0 +1,6 @@
+Det finns objekt som har djurnamn som beskriver dess typ. <djurnamn>
+Dessa typer kan sedan ha attribut som beskriver objektet, t.ex. storlek, snabbhet, färg, hörsel, (beskriver ett värde), köttätare (attribut utan värde). *attribut*
+För att skilja värden åt används tecknet '~'.
+Barn beskrivs sedan som delar av djuret och inkapslas med måsvingar.
+
+<Björn*storlek:6~syn:7*~växtätare*{<Svans*längd:2~färg:brun*}>

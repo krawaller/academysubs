@@ -1,0 +1,22 @@
+sirar object 1 roberto yellow shadan 7 kevin blue shadan 4 roberto  mathias sirar kid 1 roberto blue shadan 8 roberto sirar mathias sirar
+
+[		{		:	,	     :		}	(    [            {             :        }	]     )       ]
+
+
+Start objekt = sirar
+Start attribute description = roberto
+separation attribute and value = shadan
+attribute separation = kevin
+start subobjekts = mathias
+
+sirar Zoo roberto aquarium shadan 100m3 kevin safari shadan 300km3 roberto mathias sirar fish roberto shark shadan 4 roberto sirar
+kevin sirar big animal roberto rhino shadan 3 roberto sirar mathias
+
+sirar Ourtable roberto Wood shadan 1 kevin Steel shadan 4 roberto mathias sirar Kevin roberto Awesome shadan 10000 roberto mathias sirar 
+[		{		:      ,	   :	    }      (        [           {                :            }      (       [
+computer roberto HP shadan 1 roberto sirar mathias sirar kevin sirar Sirar roberto Awesome shadan 500 roberto mathias sirar computer roberto
+           {           :         }     ]     )      ]      ,     [            {                :          }       (     [               {
+HP shadan 1 roberto sirar mathias sirar kevin sirar Roberto roberto Awesome shadan 200 roberto mathias sirar computer roberto HP
+        :     }       ]      )     ]       ,     [              {             :           }      (         [           {
+shadan 1 roberto sirar mathias sirar mathias sirar
+  :          }     ]     )      ]	)	]
