@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<human namn="Ragar" houses="3" wisdom="10">
+    <dog namn="Driva" colour="black">
+        <cat namn="Lisa" colour="grey"></cat>
+    </dog>
+    <human namn="Eva" houmor="10" salary="10000">
+            <human namn="John" cars="21"/>
+            <human namn="Cari" Swedish="true"/>
+    </human>
+  </human>
+
+
