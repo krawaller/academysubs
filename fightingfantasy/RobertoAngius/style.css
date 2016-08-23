@@ -1,3 +1,5 @@
+@import 'https://fonts.googleapis.com/css?family=Lobster+Two';
+
 header {
     color: #70150d;
     font-family: "Yu Gothic";
@@ -24,7 +26,7 @@ footer {
     margin-left: auto;
     margin-right: auto;
     color: #7b0803;
-    font-family: 'Indie Flower';
+    font-family: 'Lobster Two', cursive;
 
 }
 .pickbutton {
