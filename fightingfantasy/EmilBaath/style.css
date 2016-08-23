@@ -1,3 +1,7 @@
+@font-face {
+    font-family: 'Oswald';
+    src: url('http://colegiolider.com/assets/font/oswald/oswald-regular-webfont.woff');
+}
 header {
     top:0;
 }
@@ -5,7 +9,7 @@ body {
     margin: 0;
 }
 
-header, div.story{
+header, .story{
     background-color: rgba(0, 0, 0, 0.32);
     text-align: center;
     width: 100%;
@@ -22,14 +26,14 @@ h1 {
     letter-spacing: 25px;
 }
 
-div.story {
+.story {
     bottom: 0;
     font-family: 'Oswald', sans-serif;
     font-weight: 300;
     letter-spacing: 3px;
     font-size: 40px;
     color: white;
-    line-height:180px;
+    line-height:100px;
 }
 .pic {
     width: 100%;
@@ -41,11 +45,11 @@ header a,header a:visited {
     color: white;
 }
 
-div.story a, div a:visited {
+.story a, .story a:visited {
     text-decoration: none;
     color: white;
 }
-div.story a:hover {
+.story a:hover {
     text-decoration: none;
     color: #a7a386;
 }
@@ -57,7 +61,10 @@ footer {
     margin: 0px;
 }
 
-
+.story p:first-child:first-letter {
+    color: #970100;
+    font-size: 60px;
+}
 
 
 
