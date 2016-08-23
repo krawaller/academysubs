@@ -1,8 +1,67 @@
+html, body {
+    height: 90%;
+}
+
 body {
     text-align: center;
+    border: solid 3px black;
+    margin-left: 15%;
+    margin-right: 15%;
 }
-h2.headline{
+
+main{
+    height: 85%;
+}
+
+h2.headline {
+    margin-left: 25%;
+    margin-right: 25%;
+    color: #4e4e99;
+    font-family: Georgia;
 }
 
 img {
+    width: 50%;
+    height: auto;
 }
+
+div.instructions p {
+    text-align: left;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+p:first-child:first-letter {
+    float: left;
+    color: #4e4e99;
+    font-size: 75px;
+    line-height: 60px;
+    padding-top: 0px;
+    padding-right: 8px;
+    padding-left: 3px;
+    font-family: Georgia;
+}
+
+p ~ p {
+    font-style: italic;
+}
+
+ul.alternatives {
+    margin-left: 25%;
+    margin-right: 25%;
+    text-align: left    ;
+    letter-spacing: 3px;
+}
+
+a {
+    color:black;
+}
+
+footer {
+    font-style: italic;
+    background-color: #383441;
+    text-align: right;
+    padding-right: 5%;
+    color: aliceblue;
+}
+
