@@ -1,0 +1,28 @@
+
+[human *Ragar*(houses/3, wisdom/10)1@Driva, 1@Eva]
+[dog *Driva*(colour/black)0@Ragnar,2@Lisa]
+[cat *Lisa* (colour/grey, weight/7)]
+[human *Eva* (houmor/10, salary/10 000) 1@John, 1@Karin]
+[human *John* (cars/2)]
+[human *Karin* (Swedish/true)]
+
+
+
+Rules:
+An object starts with [ and ends with ] it has a type by specis, ex.
+[human]
+
+If an object has a name it is marked with *name* after the specis.
+[human *Allan*]
+
+Every object can have many attributes, they are written within () and divided with a ,
+if they have a vale it is given with a / ex
+[human *Allan* (houmor/10, salary/10 000)]
+
+An object can have relationships (but it's optional to define, there are 4 different types of relationships.
+ (uppwards, downwards, sameLevel, undefined) - they are coded 0-3. A relationships is written
+  with the code and @ ex. The object is called by it's name. relationships are divided with ,
+
+[human *Allan* (houmor/10, salary/10 000)2@Johan]
+
+

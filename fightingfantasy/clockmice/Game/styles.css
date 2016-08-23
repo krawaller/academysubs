@@ -1,0 +1,60 @@
+@import "https://fonts.googleapis.com/css?family=Righteous";
+body {
+    margin: auto;
+    width: 50%;
+    font-family: "Righteous";
+    font-size: larger;
+    background-color: black;
+}
+.headline{
+    padding: 20px;
+    background-color: white;
+}
+.text{
+    padding: 20px;
+    background-color: white;
+}
+.alternatives{
+    padding: 30px;
+    background-color: white;
+}
+.image{
+    padding: 10px;
+    background-color: white;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+}
+.alternatives a {
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin: 3em;
+    background-color: #76F349;
+    border: 1px solid black;
+    border-radius: 50px;
+    color: forestgreen;
+    font-size: larger;
+}
+.startover{
+    padding: 30px;
+    background-color: white;
+}
+.startover a {
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin: 12em;
+    background-color: #76F349;
+    border: 1px solid black;
+    border-radius: 50px;
+    color: forestgreen;
+    font-size: larger;
+}
+footer{
+    padding: 10px;
+    color: #ffffff;
+}

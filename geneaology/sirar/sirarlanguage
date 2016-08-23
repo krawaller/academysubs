@@ -19,3 +19,10 @@ So for instance my family
 |so fouad $a nationalitet == irakier $ea & $a language == arabic $ea ( |so widad $a profession == teacher eo|;|so
 maison $a profession = unemployed $ea (|so Tina $a profession == waitress $ea eo|)) eo|
 
+<fouad nationalitet="irakier" language="arabic>
+    <widad profession="teacher></widad>
+    <maison profession="uneomployed">
+        <Tina profession="waitress">
+        </maison>
+        </fouad>
+

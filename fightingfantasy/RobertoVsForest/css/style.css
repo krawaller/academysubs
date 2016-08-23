@@ -1,0 +1,70 @@
+body {
+
+  background: #002F2F; /* url(../img/forest.gif)repeat  no-repeat fixed center ; */
+
+}
+
+    a:link, a:visited {
+        /*   font-family: "mr-eaves-xl-modern-narrow", serif; */
+        font-family: "proxima-nova", sans-serif;
+        font-weight: 900;
+        font-size: 60px;
+        color: #FFFFFF;
+        text-decoration: none;
+        position: static;
+        top:40%;
+        width:100%;
+
+    }
+
+a:hover, a:active {
+    color: #A7A37E;
+    text-align: center;
+    position: static;
+    top:40%;
+    width:100%;
+}
+.h1{
+    font-family: "proxima-nova", sans-serif;
+    font-weight: 900;
+    font-size: 60px;
+    color: #046380;
+    position: absolute;
+    text-align: center;
+    top:40%;
+    width:100%;
+}
+img {
+
+    position: absolute;
+    opacity: 0.6;
+    filter: alpha(opacity=60); /* For IE8 and earlier */
+}
+.imgdark {
+    position: absolute;
+    margin-top:2.5%;
+    top:50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.2;
+
+    z-index:-1;
+
+}
+.top {
+    position: static;
+    top:0;
+    left:0;
+    width: 500px;
+}
+
+.imgtop {
+    position: absolute;
+     left: 50%;
+    top:25%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    opacity: 0.2;
+    z-index:-1;
+}
