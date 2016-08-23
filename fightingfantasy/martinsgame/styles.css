@@ -1,0 +1,40 @@
+body {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px;
+}
+
+h1 {border-radius: 15px;
+    text-align: center;
+    background-color: rgba(21, 170, 200, 0.32);
+}
+
+h2 {
+    color: #CC0000;
+    font-style: normal;
+}
+
+main {
+    position: relative;
+    width: 1000px;
+    height: 1000px;
+    text-align: center;
+    font-style: oblique;
+    background-image: url(img/oldhouse.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.pictures {
+    position: absolute;
+    top: 200px;
+}
+.pictures img {
+    width: 45%;
+}
+
+footer {
+    padding-top: 50px;
+    text-align: right;
+}

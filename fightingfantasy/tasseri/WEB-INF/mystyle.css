@@ -1,0 +1,23 @@
+body {
+    background-color: black;
+    color:#dc143c;
+}
+h1 {
+    font-family: "Comic Sans MS";
+}
+[href] {
+    color: greenyellow;
+}
+main {
+    font-family: 'Indie Flower', cursive;
+    padding: 10%;
+    margin: 5%;
+}
+p:first-letter{
+    font-size: 201%;
+    font-weight: bold;
+    font-family: fantasy;
+    float: left;
+    margin-right: 0.1em;
+    margin-top: -0.5%;
+}
