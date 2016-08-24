@@ -1,3 +1,33 @@
+@keyframes looparound {
+  0% {
+    top: 0;
+    left: 0;
+  }
+  25% {
+    bottom: 470px;
+    right: 470px;
+  }
+  50% {
+    bottom: 170px;
+    right: 470px;
+  }
+  75% {
+    top: 170px;
+    left: 0;
+  }
+  100% {
+    top: 0;
+    left: 0;
+  }
+}
+footer > p {
+  animation-name: looparound;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+img:Hover {
+  transform: rotate(45deg);
+}
 img {
   width: 40%;
   margin: 0 auto;
@@ -45,4 +75,7 @@ footer {
   font-style: oblique;
   font-weight: bold;
   font-size: large;
+}
+footer :first-child {
+  position: relative;
 }
