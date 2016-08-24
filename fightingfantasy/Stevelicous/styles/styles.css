@@ -1,6 +1,7 @@
 @import 'https://fonts.googleapis.com/css?family=Mystery+Quest';
 html {
   font-family: 'Mystery Quest', cursive;
+  color: #00ff21;
 }
 header:first-child:first-letter {
   color: #903;
@@ -23,6 +24,7 @@ img {
 }
 p {
   font-style: italic;
+  font-size: 20px;
 }
 body {
   background-image: url("../img/background.jpg");
@@ -54,6 +56,9 @@ a {
 .restart:before {
   content: "\21BA  ";
 }
+div ~ div span.option {
+  margin-top: 20px;
+}
 footer {
   margin-top: 20px;
   position: fixed;
@@ -65,6 +70,7 @@ footer {
   right: 0;
   left: 0;
   background-color: white;
+  color: red;
 }
 #forest_path:active {
   transform: scale(5);
@@ -90,9 +96,10 @@ footer {
   transform: rotate(-360deg);
 }
 .restart {
-  transition: transform 1s linear;
+  transition: transform 0.2s linear;
 }
-html:hover .restart:active {
-  background-color: red;
+.restart:active {
+  background-color: #903;
+  color: #903;
   transform: scale(100);
 }
