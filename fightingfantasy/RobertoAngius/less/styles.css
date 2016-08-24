@@ -1,0 +1,120 @@
+@import 'https://fonts.googleapis.com/css?family=Lobster+Two';
+header {
+  color: #70150d;
+  font-family: "Yu Gothic";
+  text-align: center;
+}
+footer {
+  color: rgba(78, 78, 78, 0.8);
+  text-align: center;
+}
+@keyframes backtothestart {
+  0% {
+    background-color: deeppink;
+    bottom: 0px;
+    left: 0px;
+  }
+  25% {
+    background-color: lawngreen;
+    bottom: 50px;
+    left: 0px;
+  }
+  50% {
+    background-color: deeppink;
+    bottom: 50px;
+    left: 200px;
+  }
+  75% {
+    background-color: lawngreen;
+    bottom: 0px;
+    left: 200px;
+  }
+  100% {
+    background-color: deeppink;
+    bottom: 0px;
+    left: 0px;
+  }
+}
+@keyframes color {
+  0% {
+    background-color: black;
+  }
+  25% {
+    background-color: white;
+  }
+  50% {
+    background-color: black;
+  }
+  75% {
+    background-color: white;
+  }
+  100% {
+    background-color: black;
+  }
+}
+@keyframes crazy {
+  0% {
+    background-image: url("https://musiccourt.files.wordpress.com/2010/09/psychedelic.jpg");
+  }
+  25% {
+    background-image: url("http://previews.123rf.com/images/objowl/objowl1208/objowl120800017/14979666-Psychedelic-Rosette-Digital-abstract-image-with-a-circular-psychedelic-design-in-green-blue-purple-a-Stock-Photo.jpg");
+  }
+  50% {
+    background-image: url("https://musiccourt.files.wordpress.com/2010/09/psychedelic.jpg");
+  }
+  75% {
+    background-image: url("http://previews.123rf.com/images/objowl/objowl1208/objowl120800017/14979666-Psychedelic-Rosette-Digital-abstract-image-with-a-circular-psychedelic-design-in-green-blue-purple-a-Stock-Photo.jpg");
+  }
+  100% {
+    background-image: url("https://musiccourt.files.wordpress.com/2010/09/psychedelic.jpg");
+  }
+}
+body {
+  animation-name: crazy;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  position: relative;
+}
+#breadtext {
+  line-height: 130%;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #7b0803;
+  font-family: 'Lobster Two', cursive;
+}
+#breadtext:first-letter {
+  float: left;
+  font-size: 75px;
+  line-height: 50px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+  font-family: Georgia;
+}
+.pickbutton {
+  width: 200px;
+}
+.pickbutton:hover {
+  transform: scale(10, 5);
+}
+.button {
+  display: block;
+  width: 410px;
+  margin-right: auto;
+  margin-left: auto;
+}
+#mainPicture {
+  display: block;
+  width: 400px;
+  height: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  animation-name: backtothestart;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  position: relative;
+}
+#html {
+  font-family: "Arial Black";
+}
