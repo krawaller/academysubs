@@ -1,0 +1,43 @@
+body {
+
+  margin: auto;
+  color: ##668cff;
+  background-color: #e6e6ff;
+  width: 50%
+}
+
+header{
+  font: italic 3em "Open Sans", sans-serif;
+  background-color:#b366ff;
+  font-weight: 800;
+  border-radius: 15px;
+}
+
+h1 {
+ color: #ff668c;
+ background-color:#ccccff;
+ font-weight: normal;
+ boarder:4px solid black;
+}
+
+h2 {
+ }
+
+main {
+ font-weight: 900;
+ color: #476b6b;
+}
+strong {
+color: #ff0040;
+}
+
+img {
+   box-shadow: 8px 8px 10px #aaa;
+   margin-bottom: 30px;
+}
+.pic {
+  border-radius: 100%; // full circular image
+}}
+footer {
+ font: italic 1em "Open Sans";
+}

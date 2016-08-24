@@ -1,0 +1,8 @@
+body {
+  background-color: #ff7373;
+  border: 3px solid blue;
+  text-align: center;
+}
+p {
+  font-weight: bold;
+}

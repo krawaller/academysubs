@@ -1,0 +1,15 @@
+body {
+  background-color: #0066FF;
+  padding-left: 3em;
+  margin-left: 3em;
+  text-align: center;
+}
+p.kim:first-letter {
+  color: #903;
+  font-size: 75px;
+  line-height: 60px;
+  font-family: Georgia;
+}
+#header {
+  color: #6c94be;
+}
