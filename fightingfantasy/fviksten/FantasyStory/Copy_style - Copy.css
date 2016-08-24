@@ -1,0 +1,83 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #c2c3dc;
+    font-family: 'Sail', cursive;
+    font-size: 150%;
+
+}
+
+p,a{
+    font-family: 'Cantora One', sans-serif;
+}
+
+#wrapper{
+    width: 80%;
+    margin: auto;
+    background-color: #8bb087;
+    padding: 2%;
+    text-align: center;
+    border-radius: 25px;
+}
+
+#back{
+    background-color: #507e5d;
+    width: 80%;
+    margin: auto;
+    padding: 2%;
+    text-align: center;
+    border-radius: 25px;
+}
+
+#river{
+    background-color: #83a8f4;
+    width: 80%;
+    margin: auto;
+    padding: 2%;
+    text-align: center;
+    border-radius: 25px;
+}
+
+#footMountain{
+    background-color: #528bff;
+    width: 80%;
+    margin: auto;
+    padding: 2%;
+    text-align: center;
+    border-radius: 25px;
+}
+
+header{
+    background-color: #cd6d6d;
+    border-radius: 25px;
+
+}
+
+.bild{
+    width: 35%;
+    border: 5px solid black;
+}
+
+#navChoice{
+    text-align: center;
+}
+
+#navChoice ul{
+    text-align: left;
+    display: inline-block;
+}
+#navChoice a:link{
+    color: black;
+}
+#navChoice ul li a:visited{
+    color: crimson;
+}
+
+#navChoice ul li a:hover{
+     color: red;
+ }
+
+
