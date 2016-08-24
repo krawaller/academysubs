@@ -13,10 +13,10 @@ header:first-child:first-letter {
 header {
   margin-bottom: 30px;
   border-bottom: 4px solid black;
-  background-color: white;
 }
 div {
   margin: 5px;
+  text-align: center;
 }
 img {
   height: 300px;
@@ -25,15 +25,28 @@ p {
   font-style: italic;
 }
 body {
+  background-image: url("../img/background.jpg");
   padding-left: 10px;
   padding-bottom: 50px;
 }
-a.option,
-a.restart {
+.option,
+.restart {
   color: #903;
   font-size: 50px;
   margin: 0px;
   padding: 10px;
+  display: inline-block;
+}
+.option:hover {
+  animation-name: bounce;
+  animation-duration: 0.6s;
+  animation-iteration-count: infinite;
+}
+span > a ~ text {
+  font-size: 25px;
+}
+a {
+  color: inherit;
 }
 .option:before {
   content: "► ";
@@ -52,4 +65,34 @@ footer {
   right: 0;
   left: 0;
   background-color: white;
+}
+#forest_path:active {
+  transform: scale(5);
+}
+#forest_path {
+  transition: transform 0.1s ease;
+}
+@keyframes bounce {
+  0% {
+    transform: translateY(0px);
+  }
+  15% {
+    transform: translateY(-10px);
+  }
+  30% {
+    transform: translateY(10px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+.restart:hover {
+  transform: rotate(-360deg);
+}
+.restart {
+  transition: transform 1s linear;
+}
+html:hover .restart:active {
+  background-color: red;
+  transform: scale(100);
 }
