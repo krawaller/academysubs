@@ -3,10 +3,14 @@ body {
   background: #002F2F; /* url(../img/forest.gif)repeat  no-repeat fixed center ; */
 
 }
+@font-face {
+    font-family: "proximanova-black-webfont", sans-serif;
+    src: url('https://github.com/zurb/ARCHIVE-brograms/blob/master/public/fonts/proximanova-black-webfont.woff');
+}
 
     a:link, a:visited {
         /*   font-family: "mr-eaves-xl-modern-narrow", serif; */
-        font-family: "proxima-nova", sans-serif;
+        font-family: "proximanova-black-webfont", sans-serif;
         font-weight: 900;
         font-size: 60px;
         color: #FFFFFF;
@@ -25,7 +29,7 @@ a:hover, a:active {
     width:100%;
 }
 .h1{
-    font-family: "proxima-nova", sans-serif;
+    font-family: "proximanova-black-webfont", sans-serif;
     font-weight: 900;
     font-size: 60px;
     color: #046380;
