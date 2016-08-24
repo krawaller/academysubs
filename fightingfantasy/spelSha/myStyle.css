@@ -1,29 +1,25 @@
-head {
-
-}
 header {
-    color: firebrick;
-    text-align: center;
-    font: 16px "Arial", cursive;
-    font-weight: bold;
-    font-size: 45px;
-
-    }
-body {
-    background: url("riddler.jpg");
-    font-weight: bold;
-    text-align: center;
+  color: firebrick;
+  text-align: center;
+  font: 16px "Arial", cursive;
+  font-weight: bold;
+  font-size: 45px;
 }
-main div, div a  {
-    font-style: italic;
-    color: white;
-    font-size: 30px;
+body {
+  background: url("riddler.jpg");
+  font-weight: bold;
+  text-align: center;
+}
+main div,
+div a {
+  font-style: italic;
+  color: white;
+  font-size: 30px;
 }
 main img {
-    width: 750px;
-    height: 550px;
+  width: 750px;
+  height: 550px;
 }
-
 footer a {
-    color: white;
+  color: white;
 }
