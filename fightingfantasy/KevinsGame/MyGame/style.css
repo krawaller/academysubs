@@ -1,0 +1,81 @@
+@keyframes looparound {
+  0% {
+    top: 0;
+    left: 0;
+  }
+  25% {
+    bottom: 470px;
+    right: 470px;
+  }
+  50% {
+    bottom: 170px;
+    right: 470px;
+  }
+  75% {
+    top: 170px;
+    left: 0;
+  }
+  100% {
+    top: 0;
+    left: 0;
+  }
+}
+footer > p {
+  animation-name: looparound;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+}
+img:Hover {
+  transform: rotate(45deg);
+}
+img {
+  width: 40%;
+  margin: 0 auto;
+  display: block;
+}
+body {
+  border-style: solid;
+  background-color: #38791c;
+}
+header {
+  border-style: solid;
+  background-color: #38791c;
+  text-align: center;
+  border-color: #7d2121;
+  font-size: x-large;
+}
+main p {
+  font-family: fantasy;
+  font-size: x-large;
+  text-align: center;
+}
+a {
+  color: green;
+}
+:visited {
+  color: white;
+}
+main {
+  border-style: solid;
+  background-color: #38791c;
+  margin-left: 300px;
+  margin-right: 300px;
+  border-color: #7d2121;
+}
+main ul {
+  font-size: larger;
+  padding-left: 550px;
+}
+footer {
+  border-style: solid;
+  background-color: #38791c;
+  text-align: end;
+  padding-right: 50px;
+  border-color: #7d2121;
+  font-style: oblique;
+  font-weight: bold;
+  font-size: large;
+}
+footer :first-child {
+  position: relative;
+}
