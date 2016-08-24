@@ -1,47 +1,157 @@
+.mix {
+  background: #CEFF55;
+  padding: 25px;
+}
 body {
-	background-color:#b84622;
-	margin:50px;
-	padding:10px;
-	border-style:solid;
-	text-align:center;
-	font-family: 'Orbitron';
+  background: #CEFF55;
+  padding: 25px;
+  margin: 50px;
+  border-style: solid;
+  text-align: center;
+  font-family: 'Orbitron';
 }
-.firstcharacter {
-	color: #333333; font-size: 50px; line-height: 35px; padding-top: 4px; padding-right: 3px; padding-left: 3px; font-family: Georgia;
+p:first-of-type:first-letter {
+  color: #333333;
+  font-size: 50px;
+  line-height: 35px;
+  padding-top: 4px;
+  padding-right: 3px;
+  padding-left: 3px;
+  font-family: Georgia;
 }
-
-.firstparagraph {
-	background-color:#000;
+p:nth-child(2) {
+  background-color: #000;
 }
-
+hr:nth-child(3) {
+  border-color: #333333;
+}
+hr:nth-child(6) {
+  border-color: #00AF55;
+}
 p:not(.firstparagraph) :hover {
-	color:#000;	
+  color: #000;
 }
 p {
-	color:#FFF;
-	font-size:20px;
+  color: #FFF;
+  font-size: 20px;
 }
-
 img {
-	border-style:solid;
+  border-style: solid;
+  height: 400px;
+  width: 600px;
 }
-
+/*#bild:hover{
+  transform: rotate(30deg);
+  transition: transform 0.5s ease;
+}*/
+@keyframes bild {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+#bild {
+  animation-name: bild;
+  animation-duration: 200ms;
+  transform-origin: 50% 50%;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
 h1 {
-	letter-spacing:4px;		
+  letter-spacing: 4px;
 }
-hr {
-	border-color:#555555;
-}
-footer {
-	font-style:italic; 
-	font-size:15px;
-	text-align:right;	
-}
-
 @font-face {
   font-family: 'Orbitron';
   font-style: normal;
   font-weight: 400;
   src: local('Orbitron-Light'), local('Orbitron-Regular'), url(https://fonts.gstatic.com/s/orbitron/v7/HmnHiRzvcnQr8CjBje6GQvesZW2xOQ-xsNqO47m55DA.woff2) format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215, U+E0FF, U+EFFD, U+F000;
+}
+footer {
+  font-style: italic;
+  font-size: 15px;
+  text-align: right;
+}
+@keyframes looparound {
+  from {
+    background-color: white;
+  }
+  50% {
+    background-color: black;
+  }
+  to {
+    background-color: white;
+  }
+}
+body {
+  animation-name: looparound;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+@keyframes rektangel {
+  0% {
+    top: 0;
+    left: 0;
+  }
+  25% {
+    top: 0;
+    left: 1350px;
+  }
+  50% {
+    top: 480px;
+    left: 1350px;
+  }
+  75% {
+    top: 480px;
+    left: 0;
+  }
+  100% {
+    top: 0;
+    left: 0;
+  }
+}
+#rektangel {
+  height: 100px;
+  width: 400px;
+  background-color: green;
+  position: relative;
+  animation-name: rektangel;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+@keyframes fyrkant {
+  0% {
+    top: 0;
+    left: 0;
+  }
+  25% {
+    top: 0;
+    left: 380px;
+  }
+  50% {
+    top: 80px;
+    left: 380px;
+  }
+  75% {
+    top: 80px;
+    left: 0;
+  }
+  100% {
+    top: 0;
+    left: 0;
+  }
+}
+#fyrkant {
+  height: 20px;
+  width: 20px;
+  background-color: purple;
+  position: relative;
+  animation-name: fyrkant;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
 }
