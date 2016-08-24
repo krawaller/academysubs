@@ -1,0 +1,47 @@
+body {
+  margin: auto;
+  color: #b34700;
+  background-color: #ffddcc;
+  width: 50%;
+}
+main {
+  font-size: larger;
+  font-family: "cursive";
+}
+header {
+  font-size: larger;
+  background-color: #f0dbdb;
+  border-radius: 20%;
+  padding: 3%;
+  color: #b34700;
+  font-weight: bold;
+  font: 2em "Rockwell Nova Extra Bold";
+  border: 4px double #7c7;
+  transition: transform 2s ease;
+}
+header:hover {
+  transform: rotate(-10deg);
+}
+.option {
+  background-color: #ffb380;
+  border-radius: 3%;
+  padding: 3%;
+  font: 1em "Rockwell Nova Extra Bold";
+  border: 4px double #7c7;
+}
+img {
+  border-radius: 10%;
+}
+.bonus {
+  border-radius: 90%;
+  transition: transform 1s ease;
+}
+.bonus:hover {
+  transform: rotate(45deg);
+}
+.option {
+  transition: all 0.2s ease-in-out;
+}
+.option:hover {
+  transform: scale(1.1);
+}
