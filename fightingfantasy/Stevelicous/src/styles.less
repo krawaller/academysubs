@@ -1,0 +1,114 @@
+@import 'https://fonts.googleapis.com/css?family=Mystery+Quest';
+
+html {
+	font-family: 'Mystery Quest', cursive;	
+}
+header:first-child:first-letter {
+	color: #903; 
+	font-size: 75px; 
+	line-height: 60px; 
+	padding-top: 4px; 
+	padding-right: 8px; 
+	padding-left: 3px;
+}
+
+header {
+	margin-bottom: 30px;
+	border-bottom: 4px solid black;
+	
+}
+
+div {
+	margin: 5px;
+	text-align: center;
+}
+
+img {
+	height:300px;
+}
+
+p {
+	font-style: italic;
+}
+
+body{
+	background-image: url("../img/background.jpg");
+	padding-left:10px;
+	padding-bottom:50px;
+}
+
+.option, .restart{
+	color: #903;
+	font-size: 50px;
+	margin: 0px;
+	padding: 10px;
+	display: inline-block;
+}
+.option:hover {
+	animation-name: bounce;
+	animation-duration: 0.6s;
+	animation-iteration-count: infinite;
+}
+span>a~text{
+	font-size:25px;
+}
+
+a{
+	color:inherit;
+}
+
+.option:before{
+	content: "► ";
+}
+.restart:before{
+	content: "\21BA  ";
+}
+
+footer {
+	margin-top: 20px;
+    position: fixed;
+    border-top: 1px solid black;
+	padding-top: 3px;
+	padding-left:5px;
+	padding-bottom: 5px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+	background-color: white;
+}
+
+#forest_path:active {
+	transform: scale(5);
+}
+#forest_path {
+	transition: transform 0.1s ease;
+	
+}
+
+@keyframes bounce {
+	0%{
+		transform: translateY(0px);
+	}
+	15% {
+		transform: translateY(-10px);
+	}
+	30%{
+		transform: translateY(10px);
+	}
+	100%{
+		transform: translateY(0px);
+	}
+}
+
+.restart:hover {
+	transform: rotate(-360deg);
+}
+
+.restart {
+	transition: transform 1s linear;
+}
+
+html:hover .restart:active { 
+	background-color: red; 
+	transform: scale(100);
+}
