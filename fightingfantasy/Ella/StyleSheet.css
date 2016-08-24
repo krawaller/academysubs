@@ -1,9 +1,8 @@
 body {
-background-color:#90c7d4;
-border: 3px solid blue;
-text-align: center;
+  background-color: #ff7373;
+  border: 3px solid blue;
+  text-align: center;
 }
-
 p {
-font-weight: bold;}
-
+  font-weight: bold;
+}
