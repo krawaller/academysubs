@@ -32,8 +32,10 @@ a:hover {
 
 }
 #instantexample:hover {
-  transform: rotate(45deg);
-  transition: transform 1s ease;
+  dispay: inline-block;
+
+  transform: rotate(360deg);
+  transition: transform 4s ease;
 }
 a {
   color: red;
@@ -90,5 +92,15 @@ div {
   to {
     margin-left: 0%;
     width: 100%;
+    letter-spacing: 20px;
+    font-family: Gabriola;
+    text-blink: true;
   }
+}
+.blink_me {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% { opacity: 0.0; }
 }
