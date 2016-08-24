@@ -1,19 +1,21 @@
+@urlmarker: "►";
+
 body {
   background-color: black;
-  color: #dc143c;
+  color:#dc143c;
 }
 h1 {
   position: relative;
   font-family: "Comic Sans MS";
   font-size: 100%;
+  &:hover {
+    transition-property: font-size;
+    transition-duration: 4s;
+    transition-delay: 0s;
+    font-size: 10000%;
+  }
 }
-h1:hover {
-  transition-property: font-size;
-  transition-duration: 4s;
-  transition-delay: 0s;
-  font-size: 10000%;
-}
-div.lank:hover {
+div.lank:hover{
   animation-name: hoverslow;
   animation-duration: 2s;
   animation-iteration-count: infinite;
@@ -23,30 +25,33 @@ span {
   animation-duration: 2s;
   animation-iteration-count: infinite;
   display: inline-block;
-}
-span#Super {
-  animation-delay: 0s;
-}
-span#Smash {
-  animation-delay: 0.5s;
-}
-span#Browser {
-  animation-delay: 1s;
+  &#Super {
+    animation-delay: 0s;
+  }
+  &#Smash {
+    animation-delay: 0.5s;
+  }
+  &#Browser {
+    animation-delay: 1s;
+  }
+
 }
 [href] {
   color: greenyellow;
-}
-[href]:before {
-  margin-bottom: -0.6%;
-  margin-right: 1px;
-  content: "►";
+
+  &:before {
+    margin-bottom: -0.6%;
+    margin-right: 1px;
+    content: @urlmarker;
+  }
+
 }
 main {
   font-family: 'Indie Flower', cursive;
   padding: 10%;
   margin: 5%;
 }
-p:first-letter {
+p:first-letter{
   font-size: 201%;
   font-weight: bold;
   font-family: fantasy;
@@ -56,13 +61,13 @@ p:first-letter {
 }
 @keyframes circle {
   0% {
-    transfrom: rotate(0turn);
+    transfrom: rotate(0.0turn);
   }
   50% {
     transform: rotate(0.5turn);
   }
   100% {
-    transform: rotate(1turn);
+    transform: rotate(1.0turn);
   }
 }
 #jumper {
@@ -73,14 +78,14 @@ p:first-letter {
 }
 @keyframes hoverslow {
   0% {
-    transform: Skew(0deg, 0deg);
+     transform: Skew(0deg, 0deg);
   }
   25% {
     transform: Skew(30deg, 15deg);
   }
   50% {
     transform: skew(75deg, 30deg);
-  }
+}
   75% {
     transform: skew(100deg, 40deg);
   }
@@ -90,10 +95,10 @@ p:first-letter {
 }
 .picblown {
   transition: width 2s, height 2s, background-color 2s, transform 2s;
-}
-.picblown:hover {
-  background-color: #FFCCCC;
-  width: 200px;
-  height: 200px;
-  transform: rotate(180deg);
+  &:hover {
+    background-color: #FFCCCC;
+    width: 200px;
+    height: 200px;
+    transform: rotate(180deg);
+  }
 }
