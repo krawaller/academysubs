@@ -1,0 +1,18 @@
+CSS - basic
+
+[href^="http"] söker efter början, som har detta attribut. lasso in alla externa länkar
+och kan får dem att uppträda olika.
+
+: pseudo klass
+
+:active - när man håller muspelaren över.
+
+:not() targets all that is not there.
+
+div p - hela hirakin
+div > p - p som har mamm div
+
+div + p div har en äldre bror div
+
+div ~ p något syskon?
+
