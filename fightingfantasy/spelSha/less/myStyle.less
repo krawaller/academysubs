@@ -1,15 +1,61 @@
 @color-base: white;
 
-head {
+@keyframes looparound {
+  0% {
+    top: 0;
+    left: 0;
+  }
+  25% {
+    top: 0;
+    left: 50px;
+  }
+  50% {
+    top: 50px;
+    left: 50px;
+  }
+  75% {
+    top: 50px;
+    left: 0;
+  }
+  100% {
+    top: 0;
+    left: 0;
+  }
 }
+
+@keyframes bla {
+  0%, 100% {
+    font-size: 16px;
+  }
+  50% {
+    font-size: 32px;
+  }
+}
+
 header {
     color: firebrick;
     text-align: center;
     font: 16px "Arial", cursive;
     font-weight: bold;
     font-size: 45px;
-
     }
+	
+main div {
+ animation-name: bla;
+ animation-duration: 2s;
+ animation-iteration-count: infinite;
+ animation-direction: alternate;
+ animation-timing-function: ease-out;
+ animation-fill-mode: forwards;
+ animation-delay: 1s;
+}
+	
+header:hover {
+	transform: rotate(360deg);
+	transition: transform 3s ease;
+}
+
+	
 body {
     background: url("riddler.jpg");
     font-weight: bold;
@@ -20,10 +66,24 @@ main div, div a  {
     color: @color-base;
     font-size: 30px;
 }
+
+div a:hover {
+  font-size: 40px;
+  color: firebrick;
+}
 main img {
     width: 750px;
     height: 550px;
+	  animation-name: looparound;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  position:relative;
+
 }
+
+main img:hover {
+	transform: rotate(420deg);
+	transition: transform 5s ease;}
 
 footer a {
     color: @color-base;
